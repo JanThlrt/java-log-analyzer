@@ -1,0 +1,6 @@
+INFO User login: Max
+INFO File uploaded
+ERROR Database connection failed
+INFO Logout
+ERROR Timeout
+WARNING Disk space low
