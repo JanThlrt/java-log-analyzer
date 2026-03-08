@@ -1,6 +1,8 @@
-INFO User login: Max
-INFO File uploaded
+INFO Request completed in 120ms
+INFO Request completed in 95ms
+WARNING Request completed in 410ms
 ERROR Database connection failed
-INFO Logout
-ERROR Timeout
-WARNING Disk space low
+ERROR Database connection failed
+ERROR Timeout while calling API
+INFO Request completed in 280ms
+WARNING Request completed in 350ms
