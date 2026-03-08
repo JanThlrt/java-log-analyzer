@@ -22,9 +22,9 @@ The tool parses log entries, counts log levels, identifies repeated error messag
 
 ## Example Log File
 
-Example log.txt:
+Example `log.txt`:
 
-
+```
 INFO Request completed in 120ms
 INFO Request completed in 95ms
 WARNING Request completed in 410ms
@@ -33,11 +33,11 @@ ERROR Database connection failed
 ERROR Timeout while calling API
 INFO Request completed in 280ms
 WARNING Request completed in 350ms
-
+```
 
 ## Example Output
 
-
+```
 Log Summary
 INFO: 3
 WARNING: 2
@@ -51,43 +51,43 @@ Slow requests (>300 ms): 2
 Error Summary
 Database connection failed: 2
 Timeout while calling API: 1
-
+```
 
 ## Installation
 
 Clone the repository:
 
-
+```bash
 git clone https://github.com/JanThlrt/java-log-analyzer.git
 cd java-log-analyzer
-
+```
 
 Compile the project:
 
-
+```bash
 javac Main.java LogAnalyzer.java
-
+```
 
 ## Usage
 
 Run the program with a log file:
 
-
+```bash
 java Main log.txt
+```
 
-
-If no file is specified, the program will use log.txt by default.
+If no file is specified, the program will use `log.txt` by default.
 
 ## Project Structure
 
-
+```
 java-log-analyzer
 |
 |- Main.java
 |- LogAnalyzer.java
 |- log.txt
 |- README.md
-
+```
 
 ## Purpose of the Project
 
