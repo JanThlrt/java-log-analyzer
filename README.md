@@ -82,12 +82,12 @@ If no file is specified, the program will use log.txt by default.
 
 ## Project Structure
 
-java-log-analyzer
-|
-|- Main.java
-|- LogAnalyzer.java
-|- log.txt
-|- README.md
+java-log-analyzer  
+|  
+|- Main.java  
+|- LogAnalyzer.java  
+|- log.txt  
+|- README.md  
 
 
 ## Purpose of the Project
